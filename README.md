@@ -1,5 +1,5 @@
 # underscore-mixins
-This a collection of helpful javascript mixins for [underscore.js](http://underscorejs.org).
+This is a collection of helpful javascript mixins for [underscore.js](http://underscorejs.org).
 
 # Installation
 **underscore-mixins** is a [Bower](http://bower.io/) package and it can be easily added to your project by running the following command:
