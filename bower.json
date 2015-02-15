@@ -11,6 +11,8 @@
     ],
     "description": "Collection of helpful mixins for underscore.js",
     "keywords": [
+        "util",
+        "functions",
         "mixins",
         "helpers",
         "underscore",
