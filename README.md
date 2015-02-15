@@ -10,3 +10,6 @@ Add `--save` flag at the end of the command to save this package as bower depend
 ```
 bower install underscore-mixins --save
 ```
+
+# License
+[The MIT License](https://github.com/Landish/underscore-mixins/blob/master/LICENSE.md)
