@@ -1,7 +1,7 @@
 # Underscore Mixins
 This is a collection of helpful javascript functions (a.k.a. mixins) for [underscore.js](http://underscorejs.org) library.
 
-Take a look at the [List of Methods](#list-of-methods) below to become more familiar with these package.
+Take a look at the [List of Methods](#list-of-methods) below to become more familiar with this package.
 
 # Installation
 **underscore-mixins** is a [Bower](http://bower.io/) package and it can be easily added to your project by running the following command:
