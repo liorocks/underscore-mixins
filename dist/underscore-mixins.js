@@ -11,15 +11,16 @@ _.mixin({
     /**
      * Get window location hash.
      *
-     * If no {hash} argument is passed, it will return the current hash.
-     * Otherwise it will check if passed {hash} argument is equal to location hash
+     * If no {key} argument is passed, it will return the current hash.
+     * Otherwise it will check if passed {key} argument is equal to location hash
      * and return true or false, depending on it.
      *
-     * @param hash
+     * @param key
      * @return {string|boolean}
      */
-    hash: function(hash) {
-        return _.isUndefined(hash) ? window.location.hash : '#' + hash === window.location.hash;
+    hash: function(key) {
+        var hash = window.location.hash;
+        return _.isUndefined(key) ? ( _.isEmpty(hash) ? false : hash ) : _.isEqual('#' + key.replace('#', ''), hash);
     },
 
     /**

@@ -4,7 +4,7 @@
         "dist/underscore-mixins.js",
         "dist/underscore-mixins.min.js"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/Landish/underscore-mixins",
     "authors": [
         "Lado Lomidze <lado.lomidze@gmail.com>"
